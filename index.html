@@ -922,28 +922,28 @@
 						<span class="sub-title" id="contact">CONTACT US</span>
 						<h4 class="h4-title">Get In Touch With Us</h4>
 						<div class="contact-form">
-							<form class="dzForm" name="contact" method="POST" data-netlify="true" action="./thankyou.html">
+							<form class="dzForm" name="contact" method="POST" data-netlify="true" action="thankyou.html">
 								<div class="dzFormMsg"></div>
-								<input type="hidden" class="form-control" name="dzToDo" value="Contact" >
+								<!-- <input type="hidden" class="form-control" name="dzToDo" value="Contact" > -->
 								<div class="row">
 									<div class="col-md-6">
 										<div class="form-box">
-											<input name="firstnam" type="text" required class="form-input" placeholder="First Name" required>
+											<input name="firstname" type="text" value="" required class="form-input" placeholder="First Name" required>
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="form-box">
-											<input name="lastname" type="text" class="form-input" placeholder="Last Name" required>
+											<input name="lastname" type="text" value=""  class="form-input" placeholder="Last Name" required>
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="form-box">
-											<input type="email" name="email" class="form-input" placeholder="Email Address" required>
+											<input type="email" name="email" value=""  class="form-input" placeholder="Email Address" required>
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="form-box">
-											<input type="text" name="number" class="form-input" placeholder="Phone Nubmer" required>
+											<input type="text" name="phone" value=""  class="form-input" placeholder="Phone Nubmer" required>
 										</div>
 									</div>
 									<div class="col-12">
@@ -953,7 +953,7 @@
 									</div>
 									<div class="col-12">
 										<div class="form-box">
-											<button name="submit" type="submit" value="Submit" class="sec-btn"><span>Submit Now</span></button>
+											<button type="submit" class="sec-btn"><span>Submit Now</span></button>
 										</div>
 									</div>
 								</div>
