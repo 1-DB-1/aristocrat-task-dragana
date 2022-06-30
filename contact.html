@@ -208,33 +208,33 @@
 					<h3 class="h3-title">Any Questions? Let's Talk</h3>
 					<div class="contact-page-form wow left-animation" data-wow-delay="0.2s">
 						<div class="contact-form">
-							<form class="dzForm" method="POST" action="assets/script/contact.php">
+							<form class="dzForm" name="contact" method="POST" data-netlify="true" action="./thankyou.html">
 								<div class="dzFormMsg"></div>
 								<input type="hidden" class="form-control" name="dzToDo" value="Contact" >
 								<div class="row">
 									<div class="col-md-6">
 										<div class="form-box">
-											<input name="dzName" type="text" required class="form-input" placeholder="First Name" required>
+											<input name="firstnam" type="text" required class="form-input" placeholder="First Name" required>
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="form-box">
-											<input name="dzOther[last_name]" type="text" class="form-input" placeholder="Last Name" required>
+											<input name="lastname" type="text" class="form-input" placeholder="Last Name" required>
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="form-box">
-											<input type="email" name="dzEmail" class="form-input" placeholder="Email Address" required>
+											<input type="email" name="email" class="form-input" placeholder="Email Address" required>
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="form-box">
-											<input type="text" name="dzOther[phone]" class="form-input" placeholder="Phone Nubmer" required>
+											<input type="text" name="number" class="form-input" placeholder="Phone Nubmer" required>
 										</div>
 									</div>
 									<div class="col-12">
 										<div class="form-box">
-											<textarea name="dzMessage" required class="form-input" placeholder="Write a message..."></textarea>
+											<textarea name="message" required class="form-input" placeholder="Write a message..."></textarea>
 										</div>
 									</div>
 									<!-- <div class="col-12">
