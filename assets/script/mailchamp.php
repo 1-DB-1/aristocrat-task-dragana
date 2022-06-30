@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Shivaa - Creative Digital Agency HTML Template
+Template Name: Intellisoft Data Solutions - Creative Digital Agency HTML Template
 
 Variable
 	$apiKey : Mail Champ Api

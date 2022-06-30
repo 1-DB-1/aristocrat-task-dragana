@@ -1,6 +1,6 @@
 /*==========
 
-Template Name: Shivaa
+Template Name: Intellisoft Data Solutions
 
 ==========*/
 

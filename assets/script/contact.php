@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Shivaa - Creative Digital Agency HTML Template
+Template Name: Intellisoft Data Solutions - Creative Digital Agency HTML Template
 
 Variable
 	$recaptchaSecret : Recaptcha Secret Key
@@ -26,7 +26,7 @@ require('recaptcha-master/src/autoload.php');
 $recaptchaSecret = '<!-- Put Your reCaptcha Secret Key -->';
 
 $dzEmailTo 		= "info@exemple.com";   /* Receiver Email Address */
-$dzEmailFrom    = "Shivaa Contact";
+$dzEmailFrom    = "Intellisoft Data Solutions Contact";
 
 
 function pr($value)
@@ -85,7 +85,7 @@ try {
 				$dzRes['status'] = 0;
 				$dzRes['msg'] = 'Wrong Email Format.';
 			}
-			$dzMailSubject = 'Shivaa|Contact Form: A Person want to contact';
+			$dzMailSubject = 'Intellisoft Data Solutions|Contact Form: A Person want to contact';
 			$dzMailMessage	= 	"
 								A person want to contact you: <br><br>
 								Name: $dzName<br/>
@@ -149,7 +149,7 @@ try {
 			
 				
 			
-			$dzMailSubject = 'Shivaa|Appointment Form: A Person want to contact';
+			$dzMailSubject = 'Intellisoft Data Solutions|Appointment Form: A Person want to contact';
 			$dzMailMessage	= 	"
 								A person want to contact you: <br><br>
 								Name: $dzName<br/>
