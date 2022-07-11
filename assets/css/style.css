@@ -167,7 +167,7 @@ p {
     font-weight: 600;
     text-transform: uppercase;
     padding: 15px 32px;
-    background: linear-gradient(to right, #1E1740, #039BEE, #039BEE, #1E1740);
+    background: linear-gradient(to right, #0e67e7, #00c2f3, #00c2f3, #0e67e7);
     background-size: 400% 100%;
     background-position: left center;
     border-radius: 4px;
@@ -292,7 +292,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, #00DCF6,#039BEE);
+    background: linear-gradient(to right, #00c2f3,#0e67e7);
     border-radius: 50%;
     opacity: 0;
     transition: 0.3s;
@@ -449,7 +449,7 @@ select.form-input {
     right: 0;
     width: 70px;
     height: 70px;
-    background: linear-gradient(to right, #1E1740, #039BEE);
+    background: linear-gradient(to right, #0e67e7, #00c3f3);
     text-align: center;
     border: none;
     outline: none;
@@ -478,7 +478,7 @@ select.form-input {
 }
 
 .toggle-menu .toggle-button span {
-    background: linear-gradient(to right, #1E1740, #039BEE);
+    background: linear-gradient(to right, #0f63e7, #00d3f5);
 }
 
 .toggle-menu .toggle-button span:nth-child(1) {
@@ -858,7 +858,7 @@ select.form-input {
 .extra-menu-icon a {
     width: 60px;
     height: 60px;
-    background: linear-gradient(to right, #1E1740, #039BEE, #039BEE, #1E1740);
+    background: linear-gradient(to right, #0e64e7, #00d3f5, #00d3f5, #0e64e7);
     background-size: 400% 100%;
     background-position: left center;
     display: inline-flex;
@@ -1097,7 +1097,7 @@ select.form-input {
     bottom: auto;
     width: 100%;
     height: 0;
-    background: linear-gradient(to right, #1E1740, #039BEE);
+    background: linear-gradient(to right, #0e64e7, #00d3f5);
     border-radius: 4px;
     transition: 0.5s;
     z-index: 0;
@@ -1208,7 +1208,7 @@ select.form-input {
     position: relative;
     overflow: hidden;
     padding: 72px 0 80px 0;
-    background: linear-gradient(to right, #1E1740, #039BEE);
+    background: linear-gradient(to right, #0e64e7, #00d3f5);
     z-index: 2;
 }
 
@@ -1374,7 +1374,7 @@ select.form-input {
     width: 100%;
     height: 8px;
     background: #039BEE;
-    box-shadow: -6px 6px 30px rgba(252, 157, 68, 0.4);
+    /* box-shadow: -6px 6px 30px rgba(252, 157, 68, 0.4); */
     border-radius: 5px;
 }
 
@@ -1997,7 +1997,7 @@ select.form-input {
     font-size: 15px;
     line-height: 28px;
     color: #1E1740;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     display: block;
 }
 
@@ -2069,7 +2069,7 @@ select.form-input {
     display: inline-block;
     padding: 5px 20px;
     height: 35px;
-    background: linear-gradient(to right, #1E1740, #039BEE, #039BEE, #1E1740);
+    background: linear-gradient(to right, #0e64e7, #00d3f5, #00d3f5, #0e64e7);
     background-size: 400% 100%;
     background-position: left center;
     border-radius: 4px;
@@ -2938,7 +2938,7 @@ select.form-input {
     bottom: auto;
     width: 100%;
     height: 0;
-    background: linear-gradient(to right, #1E1740, #039BEE);
+    background: linear-gradient(to right, #0e64e7, #00d3f5);
     border-radius: 4px;
     transition: 0.5s;
     z-index: 0;
@@ -3119,7 +3119,7 @@ select.form-input {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, #1E1740, #039BEE);
+    background: linear-gradient(to right, #0e64e7, #00d3f5);
     border-radius: 4px;
     opacity: 1;
     transition: 0.3s;
@@ -3156,7 +3156,7 @@ select.form-input {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, #1E1740, #039BEE);
+    background: linear-gradient(to right, #0e64e7, #00d3f5);
     border-radius: 4px;
     opacity: 0;
     transition: 0.3s;
@@ -3338,7 +3338,7 @@ select.form-input {
     transform: translate(-50%,-50%);
     width: 80px;
     height: 80px;
-    background: linear-gradient(to right, #1E1740, #039BEE, #039BEE, #1E1740);
+    background: linear-gradient(to right, #0e64e7, #00d3f5, #00d3f5, #0e64e7);
     background-size: 200% 100%;
     background-position: left center;
     border-radius: 50%;
@@ -3430,7 +3430,7 @@ select.form-input {
     border-radius: 4px;
     border: none;
     outline: none;
-    background: linear-gradient(to right, #1E1740, #039BEE, #039BEE, #1E1740);
+    background: linear-gradient(to right, #0e64e7, #00d3f5, #00d3f5, #0e64e7);
     background-size: 200% 100%;
     background-position: left center;
     color: #ffffff;
@@ -3548,7 +3548,7 @@ select.form-input {
     left: 0;
     width: 70px;
     height: 1px;
-    background: linear-gradient(to right, #1E1740, #039BEE);
+    background: linear-gradient(to right, #0e64e7, #00d3f5);
 }
 
 .blog-search-from input {
@@ -3696,7 +3696,7 @@ select.form-input {
 }
 
 .categories ul li a:hover span:last-child {
-    background: linear-gradient(to right, #1E1740, #039BEE);
+    background: linear-gradient(to right, #0e64e7, #00d3f5);
     color: #ffffff;
 }
 
@@ -3729,7 +3729,7 @@ select.form-input {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, #1E1740, #039BEE);
+    background: linear-gradient(to right, #0e64e7, #00d3f5);
     border-radius: 4px;
     opacity: 0.8;
     z-index: 0;
@@ -3896,7 +3896,7 @@ select.form-input {
     transform: translate(0,-50%);
     width: 35px;
     height: 35px;
-    background: linear-gradient(to right, #1E1740, #039BEE);
+    background: linear-gradient(to right, #0e64e7, #00d3f5);
     border-radius: 50%;
     font-size: 15px;
     color: #ffffff;
@@ -3975,7 +3975,7 @@ select.form-input {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, #1E1740, #039BEE);
+    background: linear-gradient(to right, #0e64e7, #00d3f5);
     border-radius: 50%;
     opacity: 0.3;
     transition: 0.3s;
