@@ -1,0 +1,88 @@
+.owl-item.active .slider-animated-1 p{
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+.owl-item.active .slider-animated-1 h1{
+    -webkit-animation-delay: 1.3s;
+    animation-delay: 1.3s;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+.owl-item.active .slider-animated-1 a{
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+}
+
+.slider-area .single-slider{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+    position: relative;
+}
+
+.slider-area .single-slider::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.4;
+    z-index: 0;
+}
+
+.slider-area .single-slider p,
+.slider-area .single-slider h1{
+    color: #fff;
+}
+
+.slider-area .single-slider p{
+    font-family: Nanum Gothic,sans-serif;
+}
+
+.slider-area .slider-active-1 .owl-stage-outer .owl-stage{
+    display: block;
+}
+
+
+
+
+@media (max-width: 991px){
+    .slider-area .single-slider h1{
+        font-size: 3.5rem;
+    }
+
+    .slider-area .single-slider{
+        background-position: 50% 50%;
+    }
+}
+
+@media (max-width: 767px){
+    .slider-area .single-slider h1{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 575px){
+    .slider-area .single-slider h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 424px){
+    .slider-area .single-slider h1{
+        font-size: 2rem;
+    }
+}

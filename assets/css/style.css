@@ -1039,7 +1039,7 @@ select.form-input {
     left: -20px;
     width: 965px;
     height: 790px;
-    background-image: url('../images/banner-img-shape.png');
+    /* background-image: url('../images/banner-img-shape.png'); */
     background-size: 100%;
     background-position: bottom left;
     background-repeat: no-repeat;
@@ -1047,11 +1047,11 @@ select.form-input {
 }
 
 .banner-img img {
-    width: 705px;
+    width: 712px;
     max-width: unset;
     position: relative;
-    left: -70px;
-    margin-top: 85px;
+    left: 0px;
+    margin-top: 170px;
     z-index: 1;
 }
 /*==========Banner CSS End==========*/
@@ -1164,7 +1164,7 @@ select.form-input {
 /*==========About Us CSS Start==========*/
 .main-about-us {
     position: relative;
-    padding: 83px 0 120px 0;
+    padding: 111px 0 120px 0;
     overflow: visible;
 }
 
@@ -1190,7 +1190,8 @@ select.form-input {
 .about-img-box img {
     float: right;
     max-width: unset;
-    width: 714px;
+    width: 712px;
+    margin-right: 50px;
 }
 
 .about-content .sub-title {
@@ -1208,7 +1209,7 @@ select.form-input {
     position: relative;
     overflow: hidden;
     padding: 72px 0 80px 0;
-    background: linear-gradient(to right, #0e64e7, #00d3f5);
+    /* background: linear-gradient(to right, #0e64e7, #00d3f5); */
     z-index: 2;
 }
 
@@ -1219,7 +1220,7 @@ select.form-input {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../images/newsletter-shape.png');
+    background-image: url('../images/banner/banner-additional.jpg');
     background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -1384,7 +1385,7 @@ select.form-input {
 
 .experience-img img {
     max-width: unset;
-    width: 647px;
+    width: 510px;
     position: relative;
     z-index: 1;
 }
@@ -5461,3 +5462,67 @@ select.form-input {
 	margin-bottom: 10px;
 	text-align: left;
 }
+
+
+.hero-layout-three {
+    padding-top: 50px;
+    background-image: -webkit-gradient(linear,
+        right top,
+        left top,
+        from(rgba(255, 255, 255, 0.9)),
+        to(rgba(255, 255, 255, 0.9))),
+      url("../images/banner/banner-home.jpeg");
+    background-image: -webkit-linear-gradient(right,
+        rgba(255, 255, 255, 0.9),
+        rgba(255, 255, 255, 0.9)),
+        url("../images/banner/banner-home.jpeg");
+    background-image: -o-linear-gradient(right,
+        rgba(255, 255, 255, 0.9),
+        rgba(255, 255, 255, 0.9)),
+        url("../images/banner/banner-home.jpeg");
+    background-image: linear-gradient(to left, rgb(0 0 0 / 69%), rgb(45 45 45 / 66%)), url("../images/banner/banner-home.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .hero-layout-three .container {
+    position: relative;
+  }
+  
+  .hero-layout-three .container .row {
+    min-height: 950px;
+  }
+  
+  .hero-layout-three p {
+    font-size: 18px;
+    margin-bottom: 50px;
+    color: #343851;
+  }
+  
+  .hero-layout-three h4 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    line-height: 1.4;
+    COLOR: #0e65e7;
+    FONT-WEIGHT: 600;
+  }
+  
+  .hero-layout-three h1 {
+    font-size: 4.1em;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  
+  .hero-layout-three .button-group a:first-child {
+    margin-right: 25px;
+  }
+  
+  .hero-layout-three .img-hero {
+    position: absolute;
+    right: -100px;
+    bottom: -50px;
+  }
+
+
+  
