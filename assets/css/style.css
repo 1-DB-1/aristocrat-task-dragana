@@ -1015,7 +1015,7 @@ select.form-input {
 
 .banner-content {
   position: relative;
-  padding: 247px 0 165px 0;
+  padding: 200px 0 120px 0;
 }
 
 .banner-content p {
@@ -1049,7 +1049,7 @@ select.form-input {
   max-width: unset;
   position: relative;
   left: 0px;
-  margin-top: 170px;
+  margin-top: 90px;
   z-index: 1;
 }
 /*==========Banner CSS End==========*/
