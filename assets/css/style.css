@@ -167,7 +167,7 @@ p {
   font-weight: 600;
   text-transform: uppercase;
   padding: 15px 32px;
-  background: linear-gradient(to right, #0e67e7, #00c2f3, #00c2f3, #0e67e7);
+  background: linear-gradient(to right, #00c4f3, #02a9f0, #0e67e7, #1e1740);
   background-size: 400% 100%;
   background-position: left center;
   border-radius: 4px;
@@ -190,7 +190,7 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #1e1740, #039bee);
+  background: linear-gradient(to left, #0e65e7,  #01b0f0);
   transform: rotate3d(0, 0, 1, 45deg) translate3d(-30px, 4em, 0px);
   transform-origin: 0 100% 0;
   transition: transform 0.4s ease 0s, opacity 0.4s ease 0s,
@@ -5524,25 +5524,25 @@ img.service-img-box {
       from(rgba(255, 255, 255, 0.9)),
       to(rgba(255, 255, 255, 0.9))
     ),
-    url("../images/banner/banner-home.jpeg");
+    url("../images/banner.jpg");
   background-image: -webkit-linear-gradient(
       right,
       rgba(255, 255, 255, 0.9),
       rgba(255, 255, 255, 0.9)
     ),
-    url("../images/banner/banner-home.jpeg");
+    url("../images/banner.jpg");
   background-image: -o-linear-gradient(
       right,
       rgba(255, 255, 255, 0.9),
       rgba(255, 255, 255, 0.9)
     ),
-    url("../images/banner/banner-home.jpeg");
+    url("../images/banner.jpg");
   background-image: linear-gradient(
       to left,
       rgb(0 0 0 / 69%),
       rgb(45 45 45 / 66%)
     ),
-    url("../images/banner/banner-home.jpeg");
+    url("../images/banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -5566,7 +5566,7 @@ img.service-img-box {
   text-transform: uppercase;
   font-size: 1.5em;
   line-height: 1.4;
-  color: #0e65e7;
+  color: #00c0f2;
   font-weight: 600;
 }
 
