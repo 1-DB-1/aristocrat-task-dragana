@@ -340,6 +340,7 @@ p {
   margin-top: 10px;
 }
 
+
 .form-input {
   width: 100%;
   height: 60px;
@@ -877,6 +878,9 @@ select.form-input {
   width: auto;
 }
 
+img.img-radius {
+  border-radius: 30px;
+}
 .extra-menu-info {
   position: fixed;
   top: 0;
@@ -1045,7 +1049,7 @@ select.form-input {
 }
 
 .banner-img img {
-  width: 712px;
+  width: 700px;
   max-width: unset;
   position: relative;
   left: 0px;
@@ -1080,7 +1084,7 @@ select.form-input {
   padding: 35px 25px;
   text-align: center;
   background: #ffffff;
-  border-radius: 4px;
+  border-radius: 20px;
   box-shadow: 1px 1px 60px rgba(0, 0, 0, 0.08);
   overflow: hidden;
   margin-bottom: 30px;
@@ -1104,6 +1108,7 @@ select.form-input {
   height: 100%;
   top: auto;
   bottom: 0;
+  border-radius: 20px;
 }
 
 .our-service-text {
@@ -1186,7 +1191,7 @@ select.form-input {
 .about-img-box img {
   float: right;
   max-width: unset;
-  width: 712px;
+  width: 700px;
   margin-right: 50px;
 }
 
@@ -1203,7 +1208,7 @@ select.form-input {
 .main-newsletter {
   position: relative;
   overflow: hidden;
-  padding: 72px 0 80px 0;
+  padding: 72px 0 300px 0;
   /* background: linear-gradient(to right, #0e64e7, #00d3f5); */
   z-index: 2;
 }
@@ -1215,7 +1220,7 @@ select.form-input {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../images/banner/banner-additional.jpg");
+  background-image: url("../images/banner/banner-additional.png");
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -1383,7 +1388,7 @@ img.service-img-box {
 
 .experience-img img {
   max-width: unset;
-  width: 712px;
+  width: 700px;
   position: relative;
   z-index: 1;
   margin-left: 50px;
@@ -2033,7 +2038,7 @@ img.service-img-box {
 .blog-img-box {
   width: 100%;
   height: 370px;
-  border-radius: 4px;
+  border-radius: 20px;
   position: relative;
   overflow: hidden;
   margin-bottom: 22px;
@@ -2055,8 +2060,8 @@ img.service-img-box {
 
 .blog-date {
   position: absolute;
-  bottom: 10px;
-  left: 10px;
+  bottom: 20px;
+  left: -8px;
   font-size: 0;
   line-height: 1;
   z-index: 1;
@@ -2917,7 +2922,7 @@ img.service-img-box {
   float: right;
   position: relative;
   right: 47px;
-  width: 750px;
+  width: 700px;
   max-width: unset;
   height: auto;
 }
@@ -2936,7 +2941,7 @@ img.service-img-box {
   padding: 35px 25px;
   text-align: center;
   background: #ffffff;
-  border-radius: 4px;
+  border-radius: 20px;
   box-shadow: 1px 1px 60px rgba(0, 0, 0, 0.08);
   overflow: hidden;
 }
@@ -4237,20 +4242,44 @@ img.service-img-box {
   }
 }
 
-@media screen and (max-width: 1280px) {
+
+@media screen and (max-width: 1450px) {
   .banner-img img {
-    width: 650px;
+    width: 590px;
     margin-top: 190px;
   }
   .about-img-box img,
   .experience-img img {
-    width: 650px;
+    width: 590px;
     margin-right: 0;
     margin-left: 0;
   }
   img.service-img-box {
-    width: 510px !important;
+    width: 590px !important;
     margin-right: 30px;
+  }
+  .contact-page-img img {
+    width: 560px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .banner-img img {
+    width: 550px;
+    margin-top: 190px;
+  }
+  .about-img-box img,
+  .experience-img img {
+    width: 550px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  img.service-img-box {
+    width: 550px !important;
+    margin-right: 30px;
+  }
+  .contact-page-img img {
+    width: 520px;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -4288,7 +4317,7 @@ img.service-img-box {
   .about-img-box img {
     width: 685px;
     position: relative;
-    right: -50px;
+    right: 0;
   }
   .newsletter-form {
     padding: 0;
@@ -4352,10 +4381,10 @@ img.service-img-box {
   .banner-img img,
   .about-img-box img,
   .experience-img img {
-    width: 510px;
+    width: 460px;
   }
   .banner-img img {
-    margin-top: 220px;
+    margin-top: 260px;
   }
   .experience-img img {
     margin-left: 5px;
@@ -4509,7 +4538,7 @@ img.service-img-box {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 135%;
+    height: 100%;
     background-image: url(../images/banner-img-shape.png);
     background-size: cover;
     background-position: bottom center;
@@ -5539,8 +5568,8 @@ img.service-img-box {
     url("../images/banner.jpg");
   background-image: linear-gradient(
       to left,
-      rgb(0 0 0 / 69%),
-      rgb(45 45 45 / 66%)
+      rgb(0 0 0 / 35%),
+      rgb(45 45 45 / 35%)
     ),
     url("../images/banner.jpg");
   background-repeat: no-repeat;
