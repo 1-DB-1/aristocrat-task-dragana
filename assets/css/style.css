@@ -190,7 +190,7 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #0e65e7,  #01b0f0);
+  background: linear-gradient(to left, #0e65e7, #01b0f0);
   transform: rotate3d(0, 0, 1, 45deg) translate3d(-30px, 4em, 0px);
   transform-origin: 0 100% 0;
   transition: transform 0.4s ease 0s, opacity 0.4s ease 0s,
@@ -339,7 +339,6 @@ p {
 .form-box.submit-btn {
   margin-top: 10px;
 }
-
 
 .form-input {
   width: 100%;
@@ -1015,6 +1014,7 @@ img.img-radius {
 /*==========Banner CSS Start==========*/
 .main-banner {
   position: relative;
+  padding: 0;
 }
 
 .banner-content {
@@ -1041,7 +1041,7 @@ img.img-radius {
   left: -20px;
   width: 965px;
   height: 790px;
-  /* background-image: url('../images/banner-img-shape.png'); */
+  background-image: url('../images/banner-img-shape.png');
   background-size: 100%;
   background-position: bottom left;
   background-repeat: no-repeat;
@@ -1049,11 +1049,11 @@ img.img-radius {
 }
 
 .banner-img img {
-  width: 700px;
+  width: 100%;
   max-width: unset;
   position: relative;
   left: 0px;
-  margin-top: 90px;
+  margin-top: 160px;
   z-index: 1;
 }
 /*==========Banner CSS End==========*/
@@ -1061,7 +1061,7 @@ img.img-radius {
 /*==========Our Services CSS Start==========*/
 .main-our-services {
   position: relative;
-  padding-top: 111px;
+  padding: 120px 0;
   z-index: 1;
 }
 
@@ -1165,7 +1165,7 @@ img.img-radius {
 /*==========About Us CSS Start==========*/
 .main-about-us {
   position: relative;
-  padding: 111px 0 120px 0;
+  padding: 120px 0 150px 0;
   overflow: visible;
 }
 
@@ -1178,7 +1178,7 @@ img.img-radius {
   height: 1333px;
   background-image: url("../images/about-shape.png");
   background-size: 100%;
-  background-position: -35px 215px;
+  background-position: -35px 500px;
   background-repeat: no-repeat;
   z-index: 0;
 }
@@ -1191,8 +1191,11 @@ img.img-radius {
 .about-img-box img {
   float: right;
   max-width: unset;
-  width: 700px;
-  margin-right: 50px;
+  width: 100%;
+}
+
+.about-content {
+  margin-left: 50px;
 }
 
 .about-content .sub-title {
@@ -1208,7 +1211,7 @@ img.img-radius {
 .main-newsletter {
   position: relative;
   overflow: hidden;
-  padding: 72px 0 300px 0;
+  padding: 100px 0 350px 0;
   /* background: linear-gradient(to right, #0e64e7, #00d3f5); */
   z-index: 2;
 }
@@ -1388,7 +1391,7 @@ img.service-img-box {
 
 .experience-img img {
   max-width: unset;
-  width: 700px;
+  width: 100%;
   position: relative;
   z-index: 1;
   margin-left: 50px;
@@ -1958,6 +1961,7 @@ img.service-img-box {
   border: solid 2px #1e1740;
   opacity: 0.4;
   z-index: 0;
+  border-radius: 20px;
 }
 
 .main-testimonial-slider:after {
@@ -1978,6 +1982,7 @@ img.service-img-box {
   position: relative;
   box-shadow: 2px 2px 60px (#039bee / 15%);
   z-index: 1;
+  border-radius: 20px;
 }
 
 .review-box {
@@ -2016,6 +2021,7 @@ img.service-img-box {
 /*==========Our Blog CSS Start==========*/
 .main-our-blog {
   position: relative;
+  padding: 120px 0;
 }
 
 .our-blog-title {
@@ -2140,7 +2146,7 @@ img.service-img-box {
   background: #ffffff;
   position: relative;
   padding: 53px 60px 40px 60px;
-  border-radius: 4px;
+  border-radius: 20px;
   box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.08);
   text-align: center;
 }
@@ -2650,7 +2656,7 @@ img.service-img-box {
 
 /*==========About Us Page CSS Start==========*/
 .main-about-us.page-about-us {
-  padding-bottom: 0;
+  padding-bottom: 120px;
 }
 
 .main-about-us.page-about-us:before {
@@ -2922,7 +2928,7 @@ img.service-img-box {
   float: right;
   position: relative;
   right: 47px;
-  width: 700px;
+  width: 100%;
   max-width: unset;
   height: auto;
 }
@@ -4118,7 +4124,7 @@ img.service-img-box {
 
 @media screen and (min-width: 2200px) {
   .banner-img:before {
-    width: 1300px;
+    width: 1420px;
   }
   .main-banner.inner-banner {
     background-size: 2560px;
@@ -4242,10 +4248,9 @@ img.service-img-box {
   }
 }
 
-
 @media screen and (max-width: 1450px) {
   .banner-img img {
-    width: 590px;
+    width: 100%;
     margin-top: 190px;
   }
   .about-img-box img,
@@ -4259,7 +4264,7 @@ img.service-img-box {
     margin-right: 30px;
   }
   .contact-page-img img {
-    width: 560px;
+    width: 100%;
   }
 }
 
@@ -4279,7 +4284,7 @@ img.service-img-box {
     margin-right: 30px;
   }
   .contact-page-img img {
-    width: 520px;
+    width: 100%;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -4340,7 +4345,7 @@ img.service-img-box {
     padding-left: 30px;
   }
   .contact-page-img img {
-    width: 550px;
+    width: 100%;
   }
   .contact-map {
     height: 550px;
@@ -4376,12 +4381,12 @@ img.service-img-box {
     padding: 0 15px 0 20px;
   }
   img.service-img-box {
-    width: 410px !important;
+    width: 100%!important;
   }
   .banner-img img,
   .about-img-box img,
   .experience-img img {
-    width: 460px;
+    width: 100%;
   }
   .banner-img img {
     margin-top: 260px;
@@ -4391,7 +4396,7 @@ img.service-img-box {
     margin-top: 25px;
   }
   .contact-page-img img {
-    right: -20px;
+    right: 0px;
   }
 }
 
@@ -4539,7 +4544,7 @@ img.service-img-box {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../images/banner-img-shape.png);
+    background-image: url("../images/banner-img-shape.png");
     background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -4554,7 +4559,7 @@ img.service-img-box {
     text-align: center;
   }
   .banner-img img {
-    width: 500px;
+    width: 100%;
     left: 0;
     margin: auto;
     display: block;
@@ -4579,7 +4584,7 @@ img.service-img-box {
     padding: 35px 30px;
   }
   .main-about-us {
-    padding: 2px 0 80px 0;
+    padding: 120px 0 80px 0;
   }
   .about-img-box img {
     float: none;
@@ -4611,7 +4616,7 @@ img.service-img-box {
     background-position: bottom right;
   }
   .experience-img img {
-    width: 500px;
+    width: 100%;
     display: block;
     margin: auto;
   }
@@ -4816,7 +4821,7 @@ img.service-img-box {
     height: 630px;
   }
   .contact-page-img img {
-    width: 500px;
+    width: 100%;
     max-width: 100%;
     float: none;
     margin: auto;
@@ -4994,7 +4999,8 @@ img.service-img-box {
     transform: translate(80px);
   }
   .main-newsletter {
-    padding: 52px 0 60px 0;
+    padding: 52px 0 240px 0;
+    
   }
   .newsletter-content .h4-title {
     margin-bottom: 20px;
@@ -5003,7 +5009,7 @@ img.service-img-box {
     margin-top: 40px;
   }
   .main-experience {
-    padding: 60px 0 46px 0;
+    padding: 0px 0 46px 0;
   }
   .experience-skill-bar-box {
     margin-bottom: 20px;
@@ -5072,6 +5078,14 @@ img.service-img-box {
   .main-partners {
     padding: 395px 0 30px 0;
   }
+  .main-banner {
+    padding: 0;
+  }
+  .main-about-us.page-about-us {
+    padding-bottom: 0px;
+  }
+
+  }
   .site-footer {
     padding: 60px 0;
   }
@@ -5082,8 +5096,8 @@ img.service-img-box {
     margin-bottom: 18px;
   }
   .main-banner.inner-banner {
-    padding: 140px 0;
-    background-size: 1600px;
+    padding: 170px 0;
+    /* background-size: 1600px; */
   }
   .breadcrumb-box ul li,
   .breadcrumb-box ul li a {
@@ -5091,7 +5105,7 @@ img.service-img-box {
     line-height: 26px;
   }
   .main-about-us.page-about-us {
-    padding-top: 13px;
+    padding-top: 120px;
   }
   .main-experience.page-about-experience {
     padding: 50px 0 53px 0;
@@ -5112,9 +5126,13 @@ img.service-img-box {
     padding-top: 43px;
   }
   .main-team.page-team,
-  .main-pricing.page-pricing,
-  .contact-page-content {
+  .main-pricing.page-pricing
+  {
     padding: 48px 0 60px 0;
+  }
+
+  .contact-page-content {
+    padding: 120px 0 60px 0;
   }
   .contact-map {
     height: 320px;
@@ -5207,7 +5225,12 @@ img.service-img-box {
   .portfolio-detail-img {
     height: 320px;
   }
-}
+  .experience-content,
+  .about-content {
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
 
 @media screen and (max-width: 575px) {
   .video-100 iframe {
@@ -5346,7 +5369,7 @@ img.service-img-box {
     width: max-content;
   }
   img.service-img-box {
-    width: 303px !important;
+    width: 100% !important;
   }
 }
 
@@ -5499,6 +5522,11 @@ img.service-img-box {
   }
   img.service-img-box {
     width: 303px !important;
+  }
+  .about-content,
+  .experience-content {
+    margin-left: 0;
+    margin-top: 50px;
   }
 }
 /*==========Responsive CSS End==========*/
