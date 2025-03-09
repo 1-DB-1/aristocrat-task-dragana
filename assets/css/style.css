@@ -1067,7 +1067,7 @@ img.img-radius {
   z-index: 1;
 }
 .our-services-box{
-  background-image: url(../img/box-images.png); */
+  background-image: url(../img/box-images.png); 
   background-color: #081D32;
   background-position: center;
   background-size: cover;
