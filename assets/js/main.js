@@ -27,3 +27,32 @@
                 }
             }
         })
+
+        const burgerMenu = document.getElementById('burger-menu');
+const navbar = document.querySelector('.navbar');
+
+burgerMenu.addEventListener('click', () => {
+    navbar.classList.toggle('active');
+});
+
+// Tab Switching Functionality
+const tabButtons = document.querySelectorAll('.tab-button');
+tabButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        // Remove active class from all buttons
+        tabButtons.forEach(btn => btn.classList.remove('active'));
+        // Add active class to the clicked button
+        button.classList.add('active');
+    });
+});
+
+/*=============================================
+	=    		Odometer Active  	       =
+=============================================*/
+$('.odometer').appear(function (e) {
+	var odo = $(".odometer");
+	odo.each(function () {
+		var countNumber = $(this).attr("data-count");
+		$(this).html(countNumber);
+	});
+});
